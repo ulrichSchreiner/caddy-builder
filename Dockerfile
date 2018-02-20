@@ -4,7 +4,7 @@ LABEL maintainer="ulrich.schreiner@gmail.com"
 RUN apk update \
     && apk add git 
 
-ENV CADDY_VERSION v0.10.10
+ENV CADDY_VERSION v0.10.11
 
 WORKDIR /go/src
 RUN mkdir -p github.com/mholt \
